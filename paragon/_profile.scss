@@ -234,7 +234,7 @@
                     margin: 0 !important;
                     button {
                         padding: 7px 13px !important;
-                        border: 1px solid $primary !important;
+                        border: 1px solid $primary-button !important;
                         color: #fff;
                         text-decoration: none;
                         font-size: 14px;
@@ -244,7 +244,7 @@
                         position: absolute;
                         right: 15px;
                         top: 15px;
-                        background: $primary;
+                        background: $primary-button;
                         svg {
                             display: none;
                         }
@@ -299,7 +299,7 @@
                                 line-height: 20px;
                                 border: none !important;
                                 padding: 0 !important;
-                                color: $primary !important;
+                                color: $primary-button !important;
                                 text-decoration: underline;
                                 &:after {
                                     display: none;
@@ -344,14 +344,14 @@
                         margin: 0;
                         button {
                             padding: 7px 13px !important;
-                            border: 1px solid $primary !important;
+                            border: 1px solid $primary-button !important;
                             color: #fff;
                             text-decoration: none;
                             font-size: 14px;
                             font-weight: 500;
                             line-height: 20px;
                             margin: 0 0 0 15px !important;
-                            background: $primary;
+                            background: $primary-button;
                             &.btn-link {
                                 background: #fff !important;
                                 border-color: #D1D5DB !important;
