@@ -82,6 +82,7 @@
             border-radius: 6px;
             border: none;
             &.inline-link {
+                font-family: $font-family !important;
                 background: none;
                 padding: 0;
                 font-size: inherit;
@@ -110,7 +111,7 @@
                     margin-left: 0;
                 }
                 a {
-                    background: $primary;
+                    background: $primary-button;
                     padding: 9px 17px;
                     font-size: 16px;
                     line-height: 24px;
