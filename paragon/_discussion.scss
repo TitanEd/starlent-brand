@@ -26,6 +26,7 @@ position: static;
     padding: 0 0 28px;
     @include media-breakpoint-down(sm) {
     display: block !important;
+
     }
     .nav-button-group {
     border: 1px solid #E5E7EB;
@@ -106,6 +107,7 @@ position: static;
     }
     }
 }
+
 }
 .pgn__pageBanner__accentB {
 margin: 0 0 30px;
@@ -224,4 +226,11 @@ html[data-mce-style]{
 .mce-content-body{
     color: inherit;
     background-color: transparent;
+}
+
+#root .header-action-bar .navbar .nav-button-group .nav-item .nav-link.active{
+    background: $primary-button !important;
+}
+#root .header-action-bar .navbar .btn.btn-brand{
+    background: $primary-button !important;
 }
