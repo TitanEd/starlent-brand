@@ -390,6 +390,9 @@ html {
         }
     }
 }
+.btn-primary, .badge-primary{
+    background: $primary-button !important;
+}
 @import "./header";
 @import "./footer";
 @import "./login";
