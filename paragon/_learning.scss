@@ -82,6 +82,7 @@
             border-radius: 6px;
             border: none;
             &.inline-link {
+                font-family: $font-family !important;
                 background: none;
                 padding: 0;
                 font-size: inherit;
@@ -110,7 +111,7 @@
                     margin-left: 0;
                 }
                 a {
-                    background: $primary;
+                    background: $primary-button;
                     padding: 9px 17px;
                     font-size: 16px;
                     line-height: 24px;
@@ -226,4 +227,8 @@ div[data-learner-type=b2c_learner] {
             font-weight: 400 !important;
         }
     }
+}
+
+#root .course-outline-tab .raised-card.alert-content{
+    font-family: $font-family !important;
 }
