@@ -393,6 +393,27 @@ html {
 .btn-primary, .badge-primary{
     background: $primary-button !important;
 }
+a{
+    color: $primary !important;
+}
+.sequence-navigation .btn.btn-primary, .sequence-navigation body.indigo-dark-theme .modal button.btn, body.indigo-dark-theme .modal .sequence-navigation button.btn{
+    color: #ffffff !important;
+}
+.xblock--drag-and-drop .drag-container .option{
+    background: $primary-button !important;
+}
+.btn-link{
+    color: $primary !important;
+}
+.badge-info{
+    background: $primary-button !important;
+}
+.btn-primary, body.indigo-dark-theme .modal button{
+    color: #ffffff !important;
+}
+.mce-content-body a, .mce-content-body a:link, .mce-content-body a:visited, .mce-content-body a:hover, .mce-content-body a{
+    color: $primary !important;
+}
 @import "./header";
 @import "./footer";
 @import "./login";

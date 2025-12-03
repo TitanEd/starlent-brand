@@ -68,3 +68,18 @@
         }
     }
 }
+.tox {
+    .tox-dialog__footer {
+        .tox-button{
+            background: $primary-button !important;
+            &.tox-button--secondary {
+                background: none !important;
+            }
+        }
+    }
+    .tox-dialog__body-nav-item--active{
+        color: $primary !important;
+        border-bottom: 2px solid $primary !important;
+    }
+
+}
