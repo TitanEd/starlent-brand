@@ -408,7 +408,7 @@ a{
 .badge-info{
     background: $primary-button !important;
 }
-.btn-primary, body.indigo-dark-theme .modal button{
+.btn-primary, body.indigo-dark-theme .modal button, #root .course-outline-tab .raised-card .pgn__card-header-actions a, [data-testid="instructor-toolbar"] .container-xl .btn-inverse-outline-primary{
     color: #ffffff !important;
 }
 .mce-content-body a, .mce-content-body a:link, .mce-content-body a:visited, .mce-content-body a:hover, .mce-content-body a{
