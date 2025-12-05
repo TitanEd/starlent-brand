@@ -83,3 +83,18 @@
     }
 
 }
+button.tox-button{
+    border-color: $primary !important;
+}
+.tox .tox-textfield:focus, .tox .tox-listboxfield .tox-listbox--select:focus, .tox .tox-textarea:focus{
+    border-color: $primary !important;
+}
+.configuration-card-header__button{
+    .pgn__hstack{
+        span{
+            .small{
+                color: #ffffff !important;
+            }
+        }
+    }
+}
