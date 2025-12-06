@@ -414,6 +414,14 @@ a{
 .mce-content-body a, .mce-content-body a:link, .mce-content-body a:visited, .mce-content-body a:hover, .mce-content-body a{
     color: $primary !important;
 }
+li.react-datepicker__time-list-item.react-datepicker__time-list-item--selected{
+    background: $primary !important;
+    color: #ffffff !important;
+}
+.react-datepicker__day--selected{
+    background: $primary !important;
+    color: #ffffff !important;
+}
 @import "./header";
 @import "./footer";
 @import "./login";
