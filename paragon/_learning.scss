@@ -233,3 +233,24 @@ div[data-learner-type=b2c_learner] {
 #root .course-outline-tab .raised-card.alert-content{
     font-family: $font-family !important;
 }
+
+a.active.pgn__dropdown-item.dropdown-item{
+    color: #ffffff !important;
+}
+[data-testid=instructor-toolbar] .container-xl .btn-inverse-outline-primary{
+    background: none !important;
+    border-color: #ffffff !important;
+    &:hovor{
+        color: $primary !important;
+    }
+}
+.dropdown-item:hover, .dropdown-item:focus{
+    &:active{
+        color: #ffffff !important;
+    }
+}
+.alert-info{
+    .alert-icon{
+        color: $primary !important;
+    }
+}
