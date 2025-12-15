@@ -254,3 +254,10 @@ a.active.pgn__dropdown-item.dropdown-item{
         color: $primary !important;
     }
 }
+
+.course-tabs-navigation + .container-xl > .row > .col-12.col-md-4.p-0.px-md-4 .bg-light-200.raised-card .btn.btn-outline-brand, 
+.course-tabs-navigation + .container-xl > .row > .col-12.col-md-8.p-0 .bg-light-200.raised-card .btn.btn-outline-brand{
+    background: $primary-button !important;
+    border-color: $primary !important;
+    color: #ffffff !important;
+}
