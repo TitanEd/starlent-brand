@@ -6,6 +6,10 @@ body, .text-monospace, * {
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
 }
+.fa {
+    font-family: FontAwesome !important;
+}
+
 html {
     width: 100%;
     overflow-x: hidden;
