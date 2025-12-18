@@ -153,8 +153,8 @@
                     font-size: 14px;
                 }
                 .btn-brand {
-                    background: $primary-button;
-                    border-color: $primary;
+                    background: $primary-button !important;
+                    border-color: $primary !important;
                     font-size: 14px;
                     font-weight: 500;
                     line-height: 30px;
@@ -162,4 +162,25 @@
             }
         }
      }
+}
+
+.pp-page-content{
+    form{
+        .btn-brand{
+            background: $primary-button !important;
+            color: #ffffff !important;
+        }
+    }
+}
+
+.pgn__alert-message-wrapper{
+    .alert-message-content{
+        p{
+            .alert-link{
+                background: $primary-button !important;
+                color: #ffffff !important;
+                text-decoration-color: $primary !important;
+            }
+        }
+    }
 }
