@@ -6,6 +6,18 @@ body, .text-monospace, * {
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
 }
+*,
+*::before,
+*::after {
+  font-family: $font-family !important;
+}
+
+input,
+textarea,
+select,
+button {
+  font-family: $font-family !important;
+}
 .fa {
     font-family: FontAwesome !important;
 }
@@ -425,6 +437,9 @@ li.react-datepicker__time-list-item.react-datepicker__time-list-item--selected{
 .react-datepicker__day--selected{
     background: $primary !important;
     color: #ffffff !important;
+}
+.text-info-500 {
+    color: $primary !important;
 }
 @import "./header";
 @import "./footer";
