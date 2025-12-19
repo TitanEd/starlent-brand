@@ -438,8 +438,10 @@ li.react-datepicker__time-list-item.react-datepicker__time-list-item--selected{
     background: $primary !important;
     color: #ffffff !important;
 }
-.text-info-500 {
-    color: $primary !important;
+.pgn__hstack{
+    .text-info-500 {
+        color: $primary !important;
+    }
 }
 @import "./header";
 @import "./footer";
