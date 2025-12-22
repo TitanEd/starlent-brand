@@ -443,6 +443,29 @@ li.react-datepicker__time-list-item.react-datepicker__time-list-item--selected{
         color: $primary !important;
     }
 }
+.discussion-restriction{
+    .btn-group{
+        .selected-button{
+            background: $primary-button !important;
+        }
+    }
+}
+.pgn__card-body{
+    .pgn__card-footer{
+        .bg-primary-500{
+            background: $primary-button !important;
+        }
+    }
+}
+.pgn__card-body{
+    .pgn__card-footer{
+        .btn-outline-brand{
+            background: $primary-button !important;
+            border-color: $primary !important;
+            color: #ffffff;
+        }
+    }
+}
 @import "./header";
 @import "./footer";
 @import "./login";
