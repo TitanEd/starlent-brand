@@ -6,6 +6,18 @@ body, .text-monospace, * {
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
 }
+*,
+*::before,
+*::after {
+  font-family: $font-family !important;
+}
+
+input,
+textarea,
+select,
+button {
+  font-family: $font-family !important;
+}
 .fa {
     font-family: FontAwesome !important;
 }
@@ -425,6 +437,34 @@ li.react-datepicker__time-list-item.react-datepicker__time-list-item--selected{
 .react-datepicker__day--selected{
     background: $primary !important;
     color: #ffffff !important;
+}
+.pgn__hstack{
+    .text-info-500 {
+        color: $primary !important;
+    }
+}
+.discussion-restriction{
+    .btn-group{
+        .selected-button{
+            background: $primary-button !important;
+        }
+    }
+}
+.pgn__card-body{
+    .pgn__card-footer{
+        .bg-primary-500{
+            background: $primary-button !important;
+        }
+    }
+}
+.pgn__card-body{
+    .pgn__card-footer{
+        .btn-outline-brand{
+            background: $primary-button !important;
+            border-color: $primary !important;
+            color: #ffffff;
+        }
+    }
 }
 @import "./header";
 @import "./footer";
