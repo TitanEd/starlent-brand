@@ -22,6 +22,10 @@ button {
     font-family: FontAwesome !important;
 }
 
+.xmodule_display.xmodule_ProblemBlock div.problem .indicator-container .status.correct .status-icon::after{
+    font-family: FontAwesome !important;
+}
+
 html {
     width: 100%;
     overflow-x: hidden;
@@ -303,11 +307,6 @@ html {
             }
             .unit-navigation {
                 max-width: 226px;
-                button, a {
-                    svg {
-                        display: none;
-                    }
-                }
             }
         }
     }
